@@ -1,4 +1,4 @@
-#Fosil 0.2
+#Fosil 0.3
 #created by "https://github.com/Eltmiks"
 
 import json, pyaudio

@@ -22,7 +22,7 @@ def chat_with_cohere(text):
         response = co.generate(
             model='command-xlarge-nightly',
             prompt=text,
-            max_tokens=150
+            max_tokens=750
         )
         return response.generations[0].text
     except Exception as e:

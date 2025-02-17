@@ -5,7 +5,6 @@ import json, pyaudio
 import webbrowser as wb
 from vosk import KaldiRecognizer, Model
 import subprocess as sb
-import PyQt5
 import cohere, requests
 import api_key
 
